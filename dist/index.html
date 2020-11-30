@@ -11,6 +11,8 @@
     <meta name="language" content="English">
     <meta name="author" content="Jamal Bilal ">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Galdeano&family=Josefin+Sans&family=Lexend+Deca&family=Livvic&family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/dab50779e8.js" crossorigin="anonymous"></script>
@@ -52,6 +54,7 @@
             <ul class="menu">
                 <li class="menu-item"><a href="index.html" class="menu-link" data-content="Home">Home</a></li>
                 <li class="menu-item"><a href="adventures.html" class="menu-link" data-content="Adventures">Adventures</a></li>
+                <li class="menu-item"><a href="services.html" class="menu-link" data-content="Services">Services</a></li>
                 <li class="menu-item"><a href="about.html" class="menu-link" data-content="About Us">About Us</a></li>
                 <li class="menu-item"><a href="contact.html" class="menu-link" data-content="Contact">Contact</a></li>
             </ul>
@@ -61,6 +64,56 @@
                 <a href="https://wa.link/dlqu0j" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </div>
         </section>
+
+        <!-- Carousel -->
+
+            <main>
+                <section>
+                    <div class="blog">
+                        <div class="container-carousel">
+                            <div class="owl-carousel owl-theme blog-post">
+                                <div class="blog-content" data-tilt>
+                                    <img src="img/safari-express.jpg" alt="">
+                                    <div class="blog-title">
+                                        <h3>Safari Express</h3>
+                                        <a href="services.html"><button class="btn-carousel">More</button></a>
+                                    </div>
+                                </div>
+                                <div class="blog-content" data-tilt="">
+                                    <img src="img/jozani-carousel.jpg" alt="">
+                                    <div class="blog-title">
+                                        <h3>Jozani Forest</h3>
+                                        <a href="services.html"><button class="btn-carousel">More</button></a>
+                                    </div>
+                                </div>
+                                <div class="blog-content" data-tilt="">
+                                    <img src="img/prison island-carousel.jpg" alt="">
+                                    <div class="blog-title">
+                                        <h3>Prison Island</h3>
+                                        <a href="services.html"><button class="btn-carousel">More</button></a>
+                                    </div>
+                                </div>
+                                <div class="blog-content" data-tilt="">
+                                    <img src="img/bluesafari-carousel.jpg" alt="">
+                                    <div class="blog-title">
+                                        <h3>Blue Safari</h3>
+                                        <a href="services.html"><button class="btn-carousel">More</button></a>
+                                    </div>
+                                </div>
+                                <div class="blog-content" data-tilt="">
+                                    <img src="img/spice-tour-carousel.jpg" alt="">
+                                    <div class="blog-title">
+                                        <h3>Spice Tour</h3>
+                                        <a href="services.html"><button class="btn-carousel">More</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
 
         <!--About us-->
         <section class="about-us">
@@ -155,7 +208,7 @@
                 </div>
                 <div class="card" data-tilt>
                     <div class="card-img-wrapper">
-                        <img src="img/serengeti.jpg" alt="">
+                        <img src="img/hippo.jpg" alt="">
                     </div>
                     <div class="card-info">
                         <h2>Visit</h2>
@@ -179,55 +232,13 @@
         </section>
         <!--/Site-->
 
-          <!--contact-form -->
-          <section class="w3l-contact-main">
-            <div class="contact-infhny py-5">
-              <div class="container-contact py-lg-3">
-                <div class="top-map">
-                  <div class="map-content-9">
-                    <form action="" method="POST">
-                      <div class="form-top1">
-                        <h3 class="hny-title text-center mb-0">Contact Us.</h3>
-                        
-                        <div class="form-top">
-        
-                          <div class="form-top-left">
-        
-                            <input type="text" name="Name" id="Name" placeholder="Name" required="">
-                            <input type="number" name="Phone" placeholder="Your phone number" required="">
-                            <input type="email" name="Sender" id="Sender" placeholder="Email*" required="">
-                            <input type="text" name="Subject" id="Name" placeholder="Subject" required="">
-                          </div>
-                          <div class="form-top-right">
-                            <textarea name="Message" id="Message" placeholder="Message*" required=""></textarea>
-                          </div>
-                        </div>
-                        <div class="text-lg-right text-center">
-                          <button type="submit">Submit Now</button>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="cont-details">
-                    <ul class="address two">
-                      <li><span class="fa fa-map-marker" aria-hidden="true"></span>Arusha, Tanzania</li>
-                      <li><span class="fa fa-envelope" aria-hidden="true"></span><a
-                          href="mailto:serengetikojestours@gmail.com">serengetikojestours</a></li>
-                      <li><span class="fa fa-phone" aria-hidden="true"></span>+255 620 565 505</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-  <!-- //contact-form -->
-
   <!--Footer-->
           <footer class="footer">
               <div class="footer-content">
                   <p class="copyright">Copyright &copy; 2020, Serengeti Kopjes Tours- All Rights Reserved</p>
                 <div class="social-list">
                     <a href="https://www.facebook.com/serengetikopjestours/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/serengeti_kopjes_tours_tz?igshid=btm5w0fg6xri" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="https://wa.link/dlqu0j"><i class="fab fa-whatsapp" target="_blank"></i></a>
                 </div>
               </div>
@@ -236,8 +247,11 @@
           <a href="#" class="scroll-btn"><i class="fas fa-arrow-up"></i></a>
     </div>
 
-    <script src="main.js"></script>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="owl.carousel.js"></script>
+    <script src="owl.carousel.min.js"></script>
     <script src="tilt.js"></script>
 </body>
 </html>
