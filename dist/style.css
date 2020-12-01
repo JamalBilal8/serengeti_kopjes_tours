@@ -1139,6 +1139,9 @@ textarea {
   .service {
       width: 30rem;
   }
+  .service .service-text {
+    word-spacing: none;
+  }
   .footer {
       height: 18rem;
   }
